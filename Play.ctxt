@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ play()
+comment1.params=question
+comment1.target=boolean\ verify(java.lang.String)
+numComments=2

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Location\ getLocation()
+comment1.params=
+comment1.target=Bag\ getBag()
+comment2.params=newLoc
+comment2.target=void\ move(Location)
+comment3.params=opponent
+comment3.target=void\ battle(Player)
+comment4.params=
+comment4.target=boolean\ isStillFighting()
+comment5.params=cash
+comment5.target=void\ addMoney(int)
+comment6.params=cash
+comment6.target=void\ loseMoney(int)
+comment7.params=
+comment7.target=int\ getMoney()
+comment8.params=
+comment8.target=boolean\ arePokemonAlive()
+comment9.params=
+comment9.target=void\ printStatus()
+numComments=10

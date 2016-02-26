@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=mainCharacter
+comment0.target=PokemonCenter(Player)
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=void\ heal()
+comment3.params=
+comment3.target=void\ depositPokemon()
+comment4.params=
+comment4.target=void\ withdrawPokemon()
+comment5.params=
+comment5.target=void\ releasePokemon()
+comment6.params=
+comment6.target=void\ buy()
+comment7.params=
+comment7.target=void\ sell()
+comment8.params=question
+comment8.target=boolean\ verify(java.lang.String)
+numComments=9
