@@ -17,7 +17,7 @@ public class Attack
 
     public double typeMultiplier(Pokemon opponent)
     {
-        //Fire effective against Grass, Fire weak to water
+        //Fire effective against Grass, Fire weak to Water
         //Water effective aginst Fire, Water weak to Grass
         //Grass effective against Water, Grass weak to Fire
         if(yourType.equals(opponent.getType()))

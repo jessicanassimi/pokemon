@@ -1,6 +1,10 @@
 #BlueJ class context
 comment0.params=attackName\ inputLevel\ inputAttackPower\ inputBasePower\ inputYourType
 comment0.target=Attack(java.lang.String,\ int,\ int,\ int,\ java.lang.String)
-comment1.params=
-comment1.target=java.lang.String\ getName()
-numComments=2
+comment1.params=opponent
+comment1.target=double\ typeMultiplier(Pokemon)
+comment2.params=opponent
+comment2.target=int\ skillDamage(Pokemon)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+numComments=4

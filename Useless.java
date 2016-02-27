@@ -38,7 +38,7 @@ public class Useless extends Pokemon
         //getAttacks() = new ArrayList<Attack>(4);
         getUnusedSkills = new ArrayList<Attack>();
 
-        doNothing = new Attack("Do Nohting", super.getLevel(), super.getAttackDamage(), 0, "Normal"); //starter skill
+        doNothing = new Attack("Do Nothing", super.getLevel(), super.getAttackDamage(), 0, "Normal"); //starter skill
         boom = new Attack("Boom", super.getLevel(), super.getAttackDamage(), -9999, "Normal");  //Level 8
 
         

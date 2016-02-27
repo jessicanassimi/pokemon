@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ main()
+comment0.params=mainCharacter
+comment0.target=Grass(Player)
 comment1.params=
-comment1.target=void\ initializeCPU()
+comment1.target=void\ main()
 comment2.params=
-comment2.target=void\ checkMove()
-numComments=3
+comment2.target=void\ initializeCPU()
+comment3.params=
+comment3.target=void\ checkMove()
+numComments=4

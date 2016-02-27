@@ -76,7 +76,7 @@ public class Battle
                 run();
             else
             {
-                System.out.println("That's not an option! Check for typos.(Press Enter to Continue)");
+                System.out.println("That's not an option! Check for typos. (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 System.out.println("\f");
@@ -252,7 +252,7 @@ public class Battle
                 useRegPokeball();
             else
             {
-                System.out.println("You don't have any regular pokeballs to use!(Press Enter to Continue)");
+                System.out.println("You don't have any regular pokeballs to use! (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 System.out.println("\f");
@@ -264,7 +264,7 @@ public class Battle
                 useProPokeball();
             else
             {
-                System.out.println("You don't have any professional pokeballs to use!(Press Enter to Continue)");
+                System.out.println("You don't have any professional pokeballs to use! (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 System.out.println("\f");
@@ -278,7 +278,7 @@ public class Battle
             }
             else
             {
-                System.out.println("You don't have any weak medicine to use!(Press Enter to Continue)");
+                System.out.println("You don't have any weak medicine to use! (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 System.out.println("\f");
@@ -292,7 +292,7 @@ public class Battle
             }
             else
             {
-                System.out.println("You don't have any weak medicine to use!(Press Enter to Continue)");
+                System.out.println("You don't have any strong medicine to use! (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 System.out.println("\f");
@@ -326,7 +326,7 @@ public class Battle
                 System.out.println("You have just caught a " + currentOppPoke.getName());
                 if(keyboard.nextLine().equals(""));
                 pling.run();
-                System.out.println("The Pokemon is now among your stored pokemon!(Press Enter to Continue)");
+                System.out.println("The Pokemon is now among your stored pokemon! (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 tanny.addPokemon(currentOppPoke);
@@ -336,7 +336,7 @@ public class Battle
             {
                 tanny.getBag().subRegPokeballs();
                 System.out.println("\f");
-                System.out.println("The pokeball failed to capture the wild pokemon!(Press Enter to Continue)");
+                System.out.println("The pokeball failed to capture the wild pokemon! (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 System.out.println("\f");
@@ -347,7 +347,7 @@ public class Battle
             System.out.println("\f");
             if(keyboard.nextLine().equals(""));
             pling.run();
-            System.out.println("You have no regular pokeballs to use!(Press Enter to Continue)");
+            System.out.println("You have no regular pokeballs to use! (Press Enter to Continue)");
             System.out.println("\f");
         }
     }
@@ -364,7 +364,7 @@ public class Battle
                 System.out.println("You have just caught a " + currentOppPoke.getName());
                 if(keyboard.nextLine().equals(""));
                 pling.run();
-                System.out.println("The Pokemon is now among your stored pokemon!(Press Enter to Continue)");
+                System.out.println("The Pokemon is now among your stored pokemon! (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 tanny.addPokemon(currentOppPoke);
@@ -374,7 +374,7 @@ public class Battle
             {
                 tanny.getBag().subProPokeballs();
                 System.out.println("\f");
-                System.out.println("The pokeball failed to capture the wild pokemon!(Press Enter to Continue)");
+                System.out.println("The pokeball failed to capture the wild pokemon! (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 System.out.println("\f");
@@ -385,7 +385,7 @@ public class Battle
             System.out.println("\f");
             if(keyboard.nextLine().equals(""));
             pling.run();
-            System.out.println("You have no pro pokeballs to use!(Press Enter to Continue)");
+            System.out.println("You have no pro pokeballs to use! (Press Enter to Continue)");
             System.out.println("\f");
         }
     }
@@ -421,8 +421,7 @@ public class Battle
 
     public static void run()
     {
-        //System.out.println("AIDEN DON'T BE A BITCH! FIGHT LIKE A MAN!");
-        //MUST CHECK IF ITS WILD OR NOTTT!!!!!!! //fixed with alternate gym battle method
+        // MUST CHECK IF IT'S WILD OR NOT!!!!!!! // fixed with alternate gym battle method
         if (Math.random() < .5)
         {
             System.out.println("You escaped safely. (Press Enter to Continue)");
@@ -434,7 +433,7 @@ public class Battle
         }
         else
         {
-            System.out.println("You failed to escape from the pokemon!(Press Enter to Continue)");
+            System.out.println("You failed to escape from the pokemon! (Press Enter to Continue)");
             if (keyboard.nextLine().equals(""));
             pling.run();
             System.out.println("\f");
@@ -566,7 +565,7 @@ public class Battle
             }
             else
             {
-                System.out.println("That's not an option! Check for typos.(Press Enter to Continue)");
+                System.out.println("That's not an option! Check for typos. (Press Enter to Continue)");
                 if(keyboard.nextLine().equals(""));
                 pling.run();
                 System.out.println("\f");
@@ -591,7 +590,7 @@ public class Battle
             System.out.println("What are you trying to do Willis");
             if(keyboard.nextLine().equals(""));
             pling.run();
-            System.out.println("You can't catch someone elses pokemon!");
+            System.out.println("You can't catch someone else's pokemon!");
             if(keyboard.nextLine().equals(""));
             pling.run();
             System.out.println("\f");
@@ -602,7 +601,7 @@ public class Battle
             System.out.println("What are you trying to do Willis");
             if(keyboard.nextLine().equals(""));
             pling.run();
-            System.out.println("You can't catch someone elses pokemon!");
+            System.out.println("You can't catch someone else's pokemon!");
             if(keyboard.nextLine().equals(""));
             pling.run();
             System.out.println("\f");
@@ -654,7 +653,7 @@ public class Battle
         }
         else
         {
-            System.out.println("That's not an option! Check for typos.(Press Enter to Continue)");
+            System.out.println("That's not an option! Check for typos. (Press Enter to Continue)");
             if(keyboard.nextLine().equals(""));
             pling.run();
             System.out.println("\f");
